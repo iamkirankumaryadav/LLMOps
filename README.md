@@ -1,2 +1,2 @@
-# LLMOps
+# **LLMOps** 🤖🧬
 Large Language Model Operations
