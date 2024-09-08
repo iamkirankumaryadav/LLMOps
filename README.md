@@ -32,7 +32,7 @@
 5. **Governance Tools:** Data governance platforms, ethical AI frameworks.
 
 ### **LLMOps** 
-- LLMOps development and managing the model in production.
+- LLMs development and managing the model in production.
 - Experiment with foundation models
 - Prompt design and management
 - Supervised tuning
