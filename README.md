@@ -31,8 +31,18 @@
 4. **Monitoring Tools:** Prometheus, Grafana, Splunk, etc.
 5. **Governance Tools:** Data governance platforms, ethical AI frameworks.
 
-### **LLMOps vs LLM System Design**
-
+### **LLMOps** 
 - LLMOps development and managing the model in production.
+- Experiment with foundation models
+- Prompt design and management
+- Supervised tuning
+- Model Monitoring in production
+- Evaluate generative output
+
+### **LLM System Design**
+
 - LLM System Design looks into the broader design of the entire end-to-end application.
 - Front end, back end, data engineering, etc.
+- Chain multiple LLMs together.
+- Grounding (Using proper and valid data)
+- Track history (Model is trained with correct past data)
