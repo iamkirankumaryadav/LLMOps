@@ -30,3 +30,9 @@
 3. **Model Management Tools:** MLflow, Kubeflow, etc.
 4. **Monitoring Tools:** Prometheus, Grafana, Splunk, etc.
 5. **Governance Tools:** Data governance platforms, ethical AI frameworks.
+
+### **LLMOps vs LLM System Design**
+
+- LLMOps development and managing the model in production.
+- LLM System Design looks into the broader design of the entire end-to-end application.
+- Front end, back end, data engineering, etc.
