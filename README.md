@@ -2,7 +2,7 @@
 
 - **LLMOps** encompasses the practices, techniques and tools used for the operational management of LLMs in production environments.
 - Automates the cycle of data preparation, development, training, tuning, evaluation, deployment, maintenance, and monitoring.
-- Chaining multiple processes together, managing the dependencies, frameworks, integrations, and tools for connecting end-to-end workflow.
+- Chaining multiple processes together, managing the dependencies, frameworks, and tools for connecting end-to-end workflow.
 - It combines DevOps, MLOps, and AIOps to build, train, and deploy LLMs efficiently.
 - Experiment with foundation models, prompt design, prompt enhancement, and evaluate generative output.
 
