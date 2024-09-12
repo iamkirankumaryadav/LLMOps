@@ -1,4 +1,4 @@
-# ![**Amazon Bedrock**](https://aws.amazon.com/bedrock/)
+# [**Amazon Bedrock**](https://aws.amazon.com/bedrock/)
 
 - A fully managed cloud service that lets developers build GenAI applications on Amazon's cloud platform (AWS).
 - Offers a choice of high-performing foundation models (FMs) from leading AI companies through a single API.
