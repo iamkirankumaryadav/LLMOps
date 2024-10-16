@@ -3,9 +3,9 @@
 ### Large Language Models (LLMs)
 - A type of AI designed to process and generate human-like text.
 - They are trained on massive datasets of text and code, allowing them to understand, summarize, translate, and generate new.
-* **GPT-3** (Generative Pre-trained Transformer 3) by OpenAI
-* **LaMDA** (Language Model for Dialogue Applications) by Google
-* **BERT** (Bidirectional Encoder Representations from Transformers) by Google
+- **GPT-3** (Generative Pre-trained Transformer 3) by OpenAI
+- **LaMDA** (Language Model for Dialogue Applications) by Google
+- **BERT** (Bidirectional Encoder Representations from Transformers) by Google
 
 ### Generative AI
 - A broader category encompassing AI models capable of creating new content, such as images, music, and text.
