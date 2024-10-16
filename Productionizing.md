@@ -1,4 +1,4 @@
-# Productionizing LLM Applications
+# Productionizing LLMs
 Productionizing LLM applications involves deploying and managing these models in real-world environments to deliver value to users.
 
 ### Infrastructure and Scalability
