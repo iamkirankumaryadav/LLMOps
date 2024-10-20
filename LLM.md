@@ -1,4 +1,4 @@
-# LLM and Generative AI Landscape
+  # LLM and Generative AI Landscape
 
 ### Large Language Models (LLMs)
 - A type of AI designed to process and generate human-like text.
@@ -41,7 +41,7 @@
 - This allows the model to dynamically focus on the most relevant parts of the input, improving its performance.
 
 ### Transformer Architecture
-- A neural network architecture that has revolutionized the field of NLP.
+- A neural network architecture that has revolutionized the field of NLP. Transformers are made up of encoders and decoders
 - It is based on the attention mechanism and is designed to process sequential data, such as text.
 - **Encoder:** Processes the input sequence and generates a sequence of hidden representations.
 - **Decoder:** Generates the output sequence, using the hidden representations from the encoder and the attention mechanism.
@@ -59,3 +59,17 @@
 Transfer learning is made up of two components:
 1. **Pretraining:**
 2. **Finetuning:**
+
+### Pre-Training | How are LLM Models trained?
+- Initially, the language model has random weights, and at this point, the model does not know the language.
+- But if you train the model and pass a large corpus of data, it adjusts these weights as part of the training process.
+- The pre-training stage is very resource-heavy, so you need lots of variety of data (books, articles, websites)
+- You also need a lot of computing (processing capability) Nvidia GPUs, and Google TPUs.
+- They run a lot of language model training tasks in parallel.
+- Pre-training is a very compute-heavy and expensive process including a lot of hardware and data.
+
+### Finetuning
+- There are two essential components: Supervised fine-tuning and Reinforcement Learning from Human Feedback (RLHF)
+- **Supervised fine-tuning:** They would pass both the prompt and the expected output from the label of each prompt to the LLM and train it.
+- After some training for a given prompt, the LLM model gets better at producing output that resembles what a label would have written.
+- **RLHF:** Model is trained with multiple ratings and feedback. 
