@@ -3,6 +3,8 @@
 ### Large Language Models (LLMs)
 - A type of AI designed to process and generate human-like text.
 - They are trained on massive datasets of text and code, allowing them to understand, summarize, translate, and generate new.
+- Parameters are values in a model that are updated during the training of the model.
+- Large language models have millions and billions of such parameters and are trained on enormous amounts of data.
 - **GPT-3** (Generative Pre-trained Transformer 3) by OpenAI
 - **LaMDA** (Language Model for Dialogue Applications) by Google
 - **BERT** (Bidirectional Encoder Representations from Transformers) by Google
