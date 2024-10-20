@@ -54,3 +54,8 @@
 - **Parallel processing:** The Transformer can process the entire input sequence in parallel, making it more efficient.
 - **Long-range dependencies:** The attention mechanism allows the Transformer to capture long-range dependencies in the input sequence.
 - **Performance:** A variety of NLP tasks, such as machine translation, text summarization, and question answering.
+
+### Transfer Learning
+Transfer learning is made up of two components:
+1. **Pretraining:**
+2. **Finetuning:**
