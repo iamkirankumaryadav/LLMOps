@@ -10,7 +10,7 @@ Dog vs. Cat Classification
 - The model learns to identify features like ears, tails, and fur patterns distinguishing dogs from cats.
 
 Breed Identification
-- Instead of training a new model from scratch for breed identification, we can use the pre-trained model from Task 1.
+- Instead of training a new model from scratch for breed identification, we can use the pre-trained model.
 - The model's ability to recognize general dog and cat features is a good starting point.
 - We fine-tune the model on a dataset of various dog breeds.
 - The model adapts its learned features to differentiate between specific breeds.
