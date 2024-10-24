@@ -1,15 +1,15 @@
 # Transfer Learning
 
-- A ML technique where a model trained on one task is used as a starting point for a related task.
+- An ML technique where a model trained on one task is used as a starting point for a related task.
 - The skills or relationship/pattern learned in one task can be applied and adapted to another.
 
 ### Example: Image Classification
 
-Task 1: Dog vs. Cat Classification
+Dog vs. Cat Classification
 - A model is trained on a dataset of thousands of dog and cat images.
-- The model learns to identify key features like ears, tails, and fur patterns that distinguish dogs from cats.
+- The model learns to identify features like ears, tails, and fur patterns distinguishing dogs from cats.
 
-Task 2: Breed Identification**
+Breed Identification
 - Instead of training a new model from scratch for breed identification, we can use the pre-trained model from Task 1.
 - The model's ability to recognize general dog and cat features is a good starting point.
 - We fine-tune the model on a dataset of various dog breeds.
@@ -17,7 +17,7 @@ Task 2: Breed Identification**
 
 ### Why Transfer Learning?
 - **Saves time and resources:** Training a model from scratch requires a massive dataset and significant computational power.
-- **Improves performance:** A pre-trained model often has a better understanding of general patterns, leading to improved accuracy on related tasks.
+- **Improves performance:** A pre-trained model often better understands general patterns, leading to improved accuracy on related tasks.
 - **Enables learning with limited data:** When datasets are small, transfer learning can help by providing a strong foundation.
 
 ### Key Concepts
