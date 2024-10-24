@@ -43,15 +43,15 @@
 ### Transformer Architecture
 - A neural network architecture that has revolutionized the field of NLP. Transformers are made up of encoders and decoders
 - It is based on the attention mechanism and is designed to process sequential data, such as text.
-- **Encoder:** Processes the input sequence and generates a sequence of hidden representations.
-- **Decoder:** Generates the output sequence, using the hidden representations from the encoder and the attention mechanism.
+- **Encoder:** Processes the input sequence and converts/generates a sequence of numerical vectors.
+- **Decoder:** Generates the output sequence, using the numerical representations from the encoder and the attention mechanism.
 - **Self-attention:** Relate different parts of the input sequence to each other, capturing dependencies and relationships.
 - **Positional encoding:** Encode the positional information of each element in the input sequence.
 - The Transformer architecture does not rely on recurrent connections.
 
 ### Advantage of Transformer Architecture over traditional RNNs
 
-- **Parallel processing:** The Transformer can process the entire input sequence in parallel, making it more efficient.
+- **Parallel processing:** The Transformer can process the entire input sequence in parallel, making it more efficient than RNNs.
 - **Long-range dependencies:** The attention mechanism allows the Transformer to capture long-range dependencies in the input sequence.
 - **Performance:** A variety of NLP tasks, such as machine translation, text summarization, and question answering.
 
