@@ -56,8 +56,8 @@ By leveraging MLflow's comprehensive suite of tools, Data Scientists and MLE can
 ### Here's how MLflow can help:
 
 1. **MLflow Tracking:**
-- **Logging:** Every time you bake a batch, you log the ingredients (parameters) and the cookie's quality (metrics).
-- **Experiment Comparison:** You can compare the results of different batches to see which combination of ingredients produced the best cookies.
+- **Logging:** Every time you bake a cookie, you log the ingredients (parameters) and the cookie's quality (metrics).
+- **Experiment:** You can compare the results of different cookies to see which combination of ingredients produced the best cookies.
 - **Artifact Logging:** You can even save a picture of the best cookie (artefact) for future reference.
 
 2. **MLflow Projects:**
@@ -66,7 +66,7 @@ By leveraging MLflow's comprehensive suite of tools, Data Scientists and MLE can
 
 3. **MLflow Models:**
 - **Model Registry:** You can register your "best" cookie recipe as a model.
-- **Model Deployment:** You can deploy this model to a "cookie factory" (a web app or API) to automatically bake cookies based on the recipe.
+- **Model Deployment:** You can deploy this model to a "cookie factory" to automatically bake cookies based on the recipe.
 
 ### In essence, MLflow helps you:
 - **Organize your experiments:** Keep track of what worked and what didn't.
