@@ -2,7 +2,7 @@
 - Fine-tuning an LLM involves training a pre-trained model on a specific dataset to adapt its behaviour to a particular task or domain.
 
 ### 1. **Prepare Your Dataset:**
-- **Data Collection:** Gather a dataset that is relevant to the task you want the model to perform. This could be a collection of text, code, or other data formats.
+- **Data Collection:** Gather a dataset that is relevant to the task you want the model to perform (Text, code, or other data formats)
 - **Data Cleaning:** Clean the data to remove noise, inconsistencies, and irrelevant information.
 - **Data Formatting:** Format the data for the chosen LLM framework. This often involves creating pairs of input prompts and desired outputs.
 
