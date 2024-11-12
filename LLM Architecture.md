@@ -1,24 +1,23 @@
 # LLM Architecture
 - LLMs are a type of AI that are trained on massive amounts of text data.
-- They are capable of generating human-quality text, translating languages, writing different kinds of creative content, and answering your questions in an informative way.
+- LLMs can generate human-quality text, translate languages, write creative content, and answer questions informally.
 
 ### Core Components of an LLM Architecture
 
 1. **Input Layer:**
-- **Tokenization:** The input text is broken down into smaller units called tokens.
-- These tokens can be words, subwords, or characters.
+- **Tokenization:** The input text is broken down into smaller units called tokens (words, subwords, or characters)
 - **Embedding Layer:** Each token is converted into a numerical representation called an embedding.
 - These embeddings capture the semantic and syntactic meaning of the token.
 
 2. **Transformer Encoder:**
-- **Self-Attention Mechanism:** This mechanism allows the model to weigh the importance of different parts of the input sequence.
-- It helps the model understand the context of each word in relation to the entire sequence.
-- **Multi-Head Attention:** Multiple attention heads are used to capture different aspects of the input sequence.
-- **Positional Encoding:** This is added to the input embeddings to provide information about the relative or absolute position of each token in the sequence.
-- **Feed-Forward Neural Network:** This layer applies non-linear transformations to the input, further enhancing the model's ability to capture complex patterns.
+- **Self-Attention Mechanism:** Allows the model to weigh the importance of different parts of the input sequence.
+- It helps the model understand the context of each word in the entire sequence.
+- **Multi-Head Attention:** Multiple attention heads capture different aspects of the input sequence.
+- **Positional Encoding:** Provides information about the relative or absolute position of each token in the sequence.
+- **Feed-Forward Neural Network:** Applies non-linear transformations to the input, further enhancing the model's ability to capture complex patterns.
 
 3. **Decoder (for generative models):**
-- **Autoregressive Decoding:** The model generates text token by token, conditioning each token on the previously generated tokens.
+- **Autoregressive Decoding:** The model generates text tokens, conditioning each token on the previously generated tokens.
 - **Attention Mechanism:** Similar to the encoder, the decoder uses self-attention to focus on relevant parts of the generated sequence.
 - **Cross-Attention:** The decoder also attends to the encoder's output to incorporate information from the input sequence.
 
