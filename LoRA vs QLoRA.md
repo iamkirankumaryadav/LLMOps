@@ -1,4 +1,4 @@
-* LoRA (Low-Rank Adaptation)** and **QLoRA (Quantized Low-Rank Adaptation)**
+# LoRA (Low-Rank Adaptation)** and **QLoRA (Quantized Low-Rank Adaptation)**
 - Techniques used to efficiently fine-tune large language models (LLMs) without training the entire model from scratch.
 - This is crucial because training LLMs from scratch is computationally expensive and time-consuming.
 - Both LoRA and QLoRA are powerful techniques for efficient fine-tuning of LLMs.
