@@ -1,12 +1,10 @@
-# LoRA (Low-Rank Adaptation)** and **QLoRA (Quantized Low-Rank Adaptation)**
-- Techniques used to efficiently fine-tune large language models (LLMs) without training the entire model from scratch.
+# LoRA (Low-Rank Adaptation) 
+- Technique used to efficiently fine-tune large language models (LLMs) without training the entire model from scratch.
 - This is crucial because training LLMs from scratch is computationally expensive and time-consuming.
-- Both LoRA and QLoRA are powerful techniques for efficient fine-tuning of LLMs.
-- LoRA is a good starting point, while QLoRA is ideal for resource-constrained environments where memory and computational efficiency are critical.
 
 ### LoRA
 - LoRA introduces small trainable matrices to the attention layers of the pre-trained LLM.
-- These matrices reduces the number of parameters to be trained, making the fine-tuning process more efficient.
+- These matrices reduce the number of parameters to be trained, making the fine-tuning process more efficient.
 
 **Benefits:**
 - **Reduced memory footprint:** LoRA requires significantly less memory compared to full fine-tuning.
@@ -16,7 +14,7 @@
 ### Here's a simplified breakdown of the process:
 
 1. **Pre-trained Model:**
-- We start with a LLM (like GPT-3) that has been pre-trained on a massive dataset.
+- We start with an LLM (like GPT-3) that has been pre-trained on a massive dataset.
 - This model has a vast number of parameters.   
 
 2. **Introducing Rank-Decomposition Matrices:**
@@ -37,8 +35,8 @@
 - The model is fine-tuned on a specific task or dataset.
 - This fine-tuning process is much faster than training the entire model from scratch, as only the small A and B matrices need to be updated.   
 
-**QLoRA**
-- QLoRA quantizes the weights of the pretrained LLM to a lower precision, typically 4-bit instead of 32-bit floating-point.
+# QLoRA (Quantized Low-Rank Adaptation)
+- QLoRA quantizes the weights of the pre-trained LLM to a lower precision, typically 4-bit instead of 32-bit floating-point.
 - QLoRA also preserves the original pre-trained model's weights.
 
 - **How it works:** QLoRA builds upon LoRA by further optimizing the memory footprint and computational efficiency.
